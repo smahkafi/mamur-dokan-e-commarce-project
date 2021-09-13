@@ -1,5 +1,5 @@
 body {
-  /* background-color:red */
+  background-color:rgb(228, 236, 227) ;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
@@ -17,6 +17,10 @@ background-color: rgb(243, 232, 232)
   border: 1px solid rgb(243, 163, 163);
   border-radius: 12px;
   padding: 5px;
+}
+.motto{
+  font-family: 'Allison', cursive;
+  font-size: 35px;
 }
 .search-box {
   border: 1px solid rgb(37, 44, 49);
@@ -86,7 +90,7 @@ background-color: rgb(243, 232, 232)
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
+  border: 1px solid rgb(204, 54, 9);
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;

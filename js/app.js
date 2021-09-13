@@ -19,9 +19,12 @@ const showProducts = (products) => {
       </div>
       <h3 class="mt-3 capitalize">${product.title.slice(0, 14)}</h3>
       <p class="capitalize">Category: ${product.category}</p>
-      <p class="capitalize"><span class="text-success">Rating:</span>${product.rating.rate} - <span class="text-primary">Count:</span>${product.rating.count}</p>
+      <p class="capitalize">
+        <span class="text-success">Rating <i class="fas fa-star-half-alt"></i> </span>${product.rating.rate} - 
+        <span class="text-danger">Count <i class="fas fa-users"></i> </span>${product.rating.count}
+      </p>
       <h2 class="capitalize">Price: $ ${product.price}</h2>
-      <button onclick="addToCart(${product.price})" id="addToCart-btn" class="buy-now btn cart-button">add to cart</button>
+      <button onclick="addToCart(${product.price})" id="addToCart-btn" class="buy-now btn capitalize cart-button">add to cart</button>
       <button id="details-btn" class="btn details-button">Details</button></div>
       `;
     document.getElementById("all-products").appendChild(div);
