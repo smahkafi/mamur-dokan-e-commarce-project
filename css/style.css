@@ -39,6 +39,9 @@ background-color: rgb(243, 232, 232)
   color: bisque;
   
 }
+.capitalize{
+  text-transform: capitalize !important;
+}
 .single-css{
   background-color: rgb(240, 243, 240);
   /* margin-top: 10px; */
@@ -72,6 +75,7 @@ background-color: rgb(243, 232, 232)
   border-radius: 5px;
 }
 .single-product:hover {
+  background-color: #ebe9f8;
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
@@ -93,11 +97,11 @@ background-color: rgb(243, 232, 232)
   padding-right: 30px;
 }
 #my-cart{
-  background-color:rgb(249, 252, 246)
+  background-color:rgba(16, 45, 173, 0.349)
 }
 
 .footer-section{
-  background-color: rgb(143, 143, 143);
+  background-color: rgba(224, 224, 224, 0.911);
   margin-top: 25px;
   min-height: 80px;
 }
