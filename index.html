@@ -21,16 +21,16 @@
 <body>
   <!-- header part -->
   <header class="header-class py-3">
-    <div class="container">
+    <div class="">
       <h1 class="text-center mt-4 fw-bold">Welcome to <span class="text-success">Mamur Dokan</span></h1>
       <div class="text-center">
-        <input id="input-field" class="search-field" type="text" placeholder="Search Product"/>
+        <input id="input-field" class="search-field mt-3" type="text" placeholder="Search Product"/>
         <button type="button" class="btn btn-danger" id="search-btn" onclick="loadProducts()">Primary</button>
       </div>
     </div>
   </header>
   <!-- main part -->
-  <main class="main container ">
+  <main class="main ">
     <div class="row mt-3">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
@@ -89,7 +89,9 @@
       <!-- My cart End -->
     </div>
   </main>
-  <footer></footer>
+  <footer class="text-center d-flex align-items-center justify-content-center footer-section">
+    <h4> &copy; Mamur Dokan</h4>
+  </footer>
 
   <!-- add javascript  file  -->
   <script src="./js/app.js"></script>
